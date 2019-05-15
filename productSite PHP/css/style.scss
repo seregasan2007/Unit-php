@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+// Colors
+$main:  #9059E0;
+$white: #ffffff;
+$text: #000000;
+$bg: #f8f8f8;
+
+// Main settings
+body {
+    background-color: $bg;
+    font-family: 'Montserrat', sans-serif;
+// Main screen
+}
+//logout
+
+.main {
+    margin-bottom: 90px;
+}
+.button-logout {
+    text-decoration: none;
+    border: none;
+    background-color: $bg;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+}
+
+.main-screen {
+    margin-top: 90px;
+    &-name{
+        margin-top: 30px;
+        h1 {
+            font-weight: bold;
+            font-size: 36px;
+        }
+    }
+    &-block {
+        img {
+            width: 200px;
+            height: 170px;
+        }
+        position: relative;
+        margin-top: 30px;
+        margin-right: 30px;
+        padding: 20px 30px;
+        background-color: $white;
+        width: 350px;
+        height: 420px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+        .number {
+            position: absolute;
+            font-size: 90px;
+            font-weight: 600;
+            font-family: "ubuntu", sans-serif;
+            color: #9059E0;
+            top: 20px;
+            right: 30px;
+        
+              /* purple */
+            opacity: 0.4;
+          }
+        .block-heading {
+            margin-top: 25px;  
+            font-weight: bold;
+            font-size: 28px;     
+            color: #000000;
+        }
+        .block-text {
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .block-button {
+            background: #FFFFFF;
+            border: none;
+            outline: none;
+            font-weight: 600;
+            font-size: 20px;
+            color: #9059E0;
+        }
+    }
+}
